@@ -1,4 +1,8 @@
 # Shana
+
+[![Build Status](https://travis-ci.org/starhoshi/Shana.svg?branch=master)](https://travis-ci.org/starhoshi/Shana)
+
+
 Testing utilities for Cloud Functions.
 
 ## Observe update event with timeout
