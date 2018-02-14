@@ -15,7 +15,7 @@ test('user.name is Yukari Hirai', () => {
   // fire Cloud Functions
   ...
 
-  observe<string>({} as any, (user, resolve, reject)=> {
+  observe<User>(userReference, (user, resolve, reject)=> {
     if (user.name === 'Yukari Hirai'){
       return resolve()
     } else if (user.name === 'Kazumi Yoshida') {
