@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Testing utilities for Cloud Functions.",
   "main": "out/shana.js",
+  "types": "out/shana.d.ts",
   "scripts": {
     "test": "jest",
     "build": "tslint -p tslint.json && tsc -d",
